@@ -64,7 +64,8 @@ img {
 
 .heart {
     position: relative;
-    color: white;
+    /* color: white; */
+    color: rgba(255,0,0,0);
     z-index: 1;
     bottom: 50px;
     left: 50%;
