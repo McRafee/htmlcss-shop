@@ -34,3 +34,27 @@ img {
     align-self: center;
     margin: 10% 10%;
 }
+
+.discount{
+    background-color: green;
+    height: 20px;
+    width: 45px;
+    position: relative;
+    left: 200px;
+}
+.discount::after{
+    content: "-30%";
+    color: white;
+}
+
+.discount-alt{
+    background-color: red;
+    height: 20px;
+    width: 45px;
+    position: relative;
+    left: 200px;
+}
+.discount-alt::after{
+    content: "-5%";
+    color: white;
+}
