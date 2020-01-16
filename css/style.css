@@ -64,19 +64,20 @@ img {
 
 .heart {
     position: relative;
-    /* color: white; */
-    color: rgba(255,0,0,0);
-    z-index: 1;
+    /* color: rgba(255,0,0,0); */
+    /* z-index: 1; */
+    width: 100%;
     bottom: 50px;
     left: 50%;
     font-size: large;
-
 }
 
 .heart::after {
     content: "\02665";
+    visibility: hidden;
+    color: red;
 }
 
-.heart:hover {
-    color: red;
+.item:hover .heart::after {
+    visibility: visible;
 }
